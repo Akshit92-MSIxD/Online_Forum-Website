@@ -1,0 +1,12 @@
+==>Challenges faced while making this project :
+
+
+
+(1)Showing alerts of Login , Logout and Signup on every refresh!!!
+   --->Solved by : using session variables.
+
+
+
+(2) Get variables in threadlist.php and thread.php removed after making POST request and returning to same page back again!!!
+    ---> Solved by : using $_SERVER['REQUEST_URI'] 
+
