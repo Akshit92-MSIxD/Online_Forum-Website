@@ -10,3 +10,12 @@
 (2) Get variables in threadlist.php and thread.php removed after making POST request and returning to same page back again!!!
     ---> Solved by : using $_SERVER['REQUEST_URI'] 
 
+
+(3) Disable/Enable Update thread/comment Button working problem!!!
+     --->Solved by : see the javascript code for it!!!
+
+
+(4) Deleting the thread and its associated comments and coming back to right threadlist page problem!!!
+   
+
+
