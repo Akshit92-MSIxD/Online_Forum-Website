@@ -1,4 +1,3 @@
-
 <?php
  
  session_start();
@@ -50,8 +49,8 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       </ul>';
 
     echo'<form  action="/Online_Forum/search.php"  method="get" class="d-flex mx-3" role="search">
-    <input class="form-control me-2" name="search" id="search" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-success" type="submit">Search</button>
+    <input class="form-control me-2" name="search" id="search" type="search" placeholder="Search Questions Here" aria-label="Search">
+    <button class="btn btn-success" type="submit">search</button>
     </form>';
 
 
@@ -94,5 +93,3 @@ require '_alerts.php';
 
 
 ?>
-
-
