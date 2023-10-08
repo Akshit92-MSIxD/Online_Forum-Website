@@ -16,21 +16,21 @@ echo'<!-- Button trigger modal is signup button!!! -->
 
                           <div class="mb-3">
                           <label for="name" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="name"  name="name" required maxlength="60">
+                          <input type="text" class="form-control" id="name"  name="name" required maxlength="60" autocomplete="off">
                       
                         </div>
                         <div class="mb-3">
                             <label for="signupEmail" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="signupEmail" aria-describedby="emailHelp" name="signupEmail" required>
+                            <input type="email" class="form-control" id="signupEmail" aria-describedby="emailHelp" name="signupEmail" required autocomplete="off">
                             <div id="emailHelp" class="form-text">We will never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
                             <label for="signupPassword" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="signupPassword" name = "signupPassword" required>
+                            <input type="password" class="form-control" id="signupPassword" name = "signupPassword" required autocomplete="off">
                         </div>
                         <div class="mb-3">
                             <label for"cpassword" class="form-label">Confirm Password</label>
-                            <input type="password" class="form-control" id="cpassword" name = "cpassword" required>
+                            <input type="password" class="form-control" id="cpassword" name = "cpassword" required autocomplete="off">
                         </div>
 
                         <button type="submit" class="btn btn-success" >Signup</button>
@@ -45,8 +45,3 @@ echo'<!-- Button trigger modal is signup button!!! -->
 
 
 <?php
-
-
-
-
-
